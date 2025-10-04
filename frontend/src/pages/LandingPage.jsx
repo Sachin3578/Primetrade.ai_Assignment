@@ -14,7 +14,7 @@ const LandingPage = () => {
       <div className="max-w-sm w-full bg-white/70 backdrop-blur-md border border-blue-300 rounded-2xl p-6 text-center shadow-lg">
         <div className="mb-6 flex justify-center">
           <img
-            src="/landing-illustration.png"
+            src="https://media.istockphoto.com/id/1492645918/photo/survey-form-concept-businessman-using-laptops-do-online-checklist-surveys-questionnaire-with.jpg?s=612x612&w=0&k=20&c=lqbzWDBLxqRe99kOz2GwfWDRzkVduf2BvUzn1NBGh7Q="
             alt="Task Management"
             className="w-56 h-56 object-contain"
           />
