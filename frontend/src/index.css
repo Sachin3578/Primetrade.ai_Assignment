@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+/* Optional: You can add your own custom global styles below if needed */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color: #f9fafb; /* Tailwind gray-50 */
+  color: #1f2937; /* Tailwind gray-800 */
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* Optional anchor styling */
+a {
+  @apply text-blue-600 hover:text-blue-800;
+}
