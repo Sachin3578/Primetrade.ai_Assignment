@@ -24,13 +24,13 @@ app.use(
 );
 
 // PI Routes
-app.use("/api/auth", authRoutes);
-app.use("/api/tasks", taskRoutes);
-app.use("/api/admin", adminRoutes);
+app.use("/auth", authRoutes);
+app.use("/tasks", taskRoutes);
+app.use("/admin", adminRoutes);
 
 // est Route
 app.get("/", (req, res) => {
-  res.json({ message: "API is running ✅" });
+  res.json({ message: "API is running" });
 });
 
 
