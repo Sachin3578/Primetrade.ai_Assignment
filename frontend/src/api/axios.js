@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const API = axios.create({
-  baseURL: "https://primetrade-ai-assignment-se3d.onrender.com || http://localhost:5000",
+  baseURL: "https://primetrade-ai-assignment-se3d.onrender.com",
   withCredentials: true,
 });
 
